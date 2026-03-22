@@ -132,11 +132,6 @@ EXTREME STRESS: 18 dB, 35 nodes, full physics — success rate ~58%
 python spectral_atlas.py
 ```
 
-
 ## License
 
 MIT License — free for academic and commercial use with attribution.
-
----
-
-*Last updated: March 2026 — Results based on hardcore stress test with ML decoding and burst noise modeling.*
