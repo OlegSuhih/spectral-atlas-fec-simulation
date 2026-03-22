@@ -73,7 +73,6 @@ This project implements an extreme stress test for the Spectral Atlas photonic p
 
     spectral-atlas-fec-simulation/
     ├── spectral_atlas_hardcore_test.py   # Main stress test (ML decoding + burst noise)
-    ├── spectral_atlas_hamming_fec.py     # Legacy version (soft-decision Hamming)
     ├── README.md                          # This file
     └── LICENSE                            # MIT License
 
