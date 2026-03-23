@@ -83,7 +83,7 @@ Photonic communication system based on spectral encoding
 
 Spectral Atlas is a simulation of a photonic communication network where information is encoded not in bits, but in the spectral profiles of photons. Each photon carries a unique spectral signature, and routing is performed by matching against a predefined atlas.
 
-## FEATURES
+### FEATURES
 - Spectral encoding — 16 unique spectral profiles (4 bits per symbol)
 - Photonic channel physics — absorption, dispersion, spectral noise
 - Coherent interference — overlapping spectra from adjacent channels
@@ -91,7 +91,7 @@ Spectral Atlas is a simulation of a photonic communication network where informa
 - Stress test scenarios — baseline, interference-only, full physics, low SNR, extreme stress
 - Energy efficiency tracking — power consumption in attojoules (aJ)
 
-## SAMPLE OUTPUT
+### SAMPLE OUTPUT
 
 SPECTRAL ATLAS SIMULATION | Start SNR: 20.0 dB | Target: [1 0 1 0]
 ```
@@ -107,12 +107,12 @@ Node   | SNR (dB)  | Correlation | Status   | Interference
 17     | 4.12      | 0.7944      | PASS     |
 18     | 3.18      | 0.7601      | FAIL     |
 ```
-## FINAL ANALYSIS
+### FINAL ANALYSIS
 Nodes passed: 18/25 (72.0%)
 Total energy: 2450 aJ
 Avg correlation: 0.9124
 
-## STRESS TEST SCENARIOS
+### STRESS TEST SCENARIOS
 ```
 BASELINE: 20 dB, 25 nodes, no interference, no dispersion — success rate ~100%
 WITH INTERFERENCE: 20 dB, 25 nodes, interference on, no dispersion — success rate ~96%
@@ -120,7 +120,7 @@ FULL PHYSICS: 20 dB, 25 nodes, interference + dispersion — success rate ~84%
 LOW SNR START: 15 dB, 20 nodes, full physics — success rate ~65%
 EXTREME STRESS: 18 dB, 35 nodes, full physics — success rate ~58%
 ```
-## HOW IT WORKS
+### HOW IT WORKS
 
 1. Encoding — 4 bits are mapped to one of 16 Gaussian spectral profiles
 2. Transmission — the photon travels through nodes with cumulative SNR degradation
