@@ -9,8 +9,6 @@ Simulation of a deep photonic computing pipeline based on InAs/InGaAs quantum do
 - Total energy = sum across all nodes
 - Example (24-node hardcore test): **Total energy ≈ 2706 aJ** → **Average ≈ 113 aJ per node**
 
-**Note**: The value "15 aJ per operation" refers to the projected fundamental limit of a single QD-based spectral operation in an idealized case. The current simulation includes realistic overheads (losses, compensation, decoding), therefore the average energy per node is higher.
-
 ## Key Capabilities Demonstrated
 
 - Reliable propagation over **20–24 nodes** even when SNR drops below 1 dB (and sometimes below 0 dB)
